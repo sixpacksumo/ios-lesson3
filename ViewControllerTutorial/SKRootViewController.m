@@ -23,9 +23,9 @@
     return self;
 }
 
-- (void)viewDidLoad
+- (void)loadView
 {
-    [super viewDidLoad];
+    [super loadView];
 	// Do any additional setup after loading the view.
     [self.view setBackgroundColor:[UIColor redColor]];
     
